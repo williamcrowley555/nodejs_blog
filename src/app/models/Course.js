@@ -15,7 +15,7 @@ const Course = new Schema(
     slug: { type: String, slug: "name", unique: true },
   },
   {
-    timestamp: true,
+    timestamps: true,
   }
 );
 
